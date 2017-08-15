@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E640D411F43306F00C37880 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E640D401F43306F00C37880 /* HomeViewController.swift */; };
+		5E640D431F43321900C37880 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E640D421F43321900C37880 /* LoginViewController.swift */; };
+		5E640D451F433DBA00C37880 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E640D441F433DBA00C37880 /* ResetPasswordViewController.swift */; };
 		5EDBA27A1F4213720099607D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDBA2791F4213720099607D /* AppDelegate.swift */; };
 		5EDBA27C1F4213720099607D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDBA27B1F4213720099607D /* ViewController.swift */; };
 		5EDBA27F1F4213720099607D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDBA27D1F4213720099607D /* Main.storyboard */; };
@@ -14,6 +17,11 @@
 		5EDBA2841F4213720099607D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDBA2821F4213720099607D /* LaunchScreen.storyboard */; };
 		5EDBA28F1F4213720099607D /* LinkUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDBA28E1F4213720099607D /* LinkUpTests.swift */; };
 		5EDBA29A1F4213720099607D /* LinkUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDBA2991F4213720099607D /* LinkUpUITests.swift */; };
+		5EDBA2AB1F421AD10099607D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EDBA2AA1F421AD10099607D /* GoogleService-Info.plist */; };
+		5EDBA2AD1F42327C0099607D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDBA2AC1F42327C0099607D /* SignUpViewController.swift */; };
+		7DB5EA22309394496FE9CAF7 /* Pods_LinkUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB72638FD2B9916CD94D020 /* Pods_LinkUpTests.framework */; };
+		8BC5A29406CB9AB82A0DD984 /* Pods_LinkUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF3AFC7A874CB5DCFC4E3F9 /* Pods_LinkUp.framework */; };
+		F69AF271FD1AD9803BFDC77E /* Pods_LinkUpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D09D8E6653DCF384C2D994C /* Pods_LinkUpUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DB72638FD2B9916CD94D020 /* Pods_LinkUpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkUpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F01E4ADE4DA08D1AC2166F6 /* Pods-LinkUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkUpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkUpTests/Pods-LinkUpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44DC00DF493BA68DF5D87F0C /* Pods-LinkUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkUp/Pods-LinkUp.debug.xcconfig"; sourceTree = "<group>"; };
+		5E640D401F43306F00C37880 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5E640D421F43321900C37880 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5E640D441F433DBA00C37880 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		5EDBA2761F4213720099607D /* LinkUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDBA2791F4213720099607D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EDBA27B1F4213720099607D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,14 @@
 		5EDBA2951F4213720099607D /* LinkUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDBA2991F4213720099607D /* LinkUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkUpUITests.swift; sourceTree = "<group>"; };
 		5EDBA29B1F4213720099607D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDBA2AA1F421AD10099607D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5EDBA2AC1F42327C0099607D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7D09D8E6653DCF384C2D994C /* Pods_LinkUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9308ECBA98D68C78D222E22F /* Pods-LinkUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkUpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkUpTests/Pods-LinkUpTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD9C8775BD2053C935AE2E86 /* Pods-LinkUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkUpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkUpUITests/Pods-LinkUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFF3AFC7A874CB5DCFC4E3F9 /* Pods_LinkUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E70EEEF171781DF74BE14E /* Pods-LinkUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkUp/Pods-LinkUp.release.xcconfig"; sourceTree = "<group>"; };
+		DCBB62A6AD988C3CC9CD565C /* Pods-LinkUpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkUpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkUpUITests/Pods-LinkUpUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC5A29406CB9AB82A0DD984 /* Pods_LinkUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB5EA22309394496FE9CAF7 /* Pods_LinkUpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69AF271FD1AD9803BFDC77E /* Pods_LinkUpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,8 @@
 				5EDBA28D1F4213720099607D /* LinkUpTests */,
 				5EDBA2981F4213720099607D /* LinkUpUITests */,
 				5EDBA2771F4213720099607D /* Products */,
+				F83A672B423CDED631925A74 /* Pods */,
+				8B1EEEAA3845A2962843DB68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +124,11 @@
 		5EDBA2781F4213720099607D /* LinkUp */ = {
 			isa = PBXGroup;
 			children = (
+				5EDBA2AA1F421AD10099607D /* GoogleService-Info.plist */,
+				5EDBA2A91F4213950099607D /* Controller */,
+				5EDBA2A81F42138B0099607D /* View */,
+				5EDBA2A71F42137F0099607D /* Model */,
 				5EDBA2791F4213720099607D /* AppDelegate.swift */,
-				5EDBA27B1F4213720099607D /* ViewController.swift */,
 				5EDBA27D1F4213720099607D /* Main.storyboard */,
 				5EDBA2801F4213720099607D /* Assets.xcassets */,
 				5EDBA2821F4213720099607D /* LaunchScreen.storyboard */,
@@ -125,6 +155,55 @@
 			path = LinkUpUITests;
 			sourceTree = "<group>";
 		};
+		5EDBA2A71F42137F0099607D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5EDBA2A81F42138B0099607D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5EDBA2A91F4213950099607D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5EDBA27B1F4213720099607D /* ViewController.swift */,
+				5EDBA2AC1F42327C0099607D /* SignUpViewController.swift */,
+				5E640D401F43306F00C37880 /* HomeViewController.swift */,
+				5E640D421F43321900C37880 /* LoginViewController.swift */,
+				5E640D441F433DBA00C37880 /* ResetPasswordViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8B1EEEAA3845A2962843DB68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF3AFC7A874CB5DCFC4E3F9 /* Pods_LinkUp.framework */,
+				0DB72638FD2B9916CD94D020 /* Pods_LinkUpTests.framework */,
+				7D09D8E6653DCF384C2D994C /* Pods_LinkUpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F83A672B423CDED631925A74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44DC00DF493BA68DF5D87F0C /* Pods-LinkUp.debug.xcconfig */,
+				C8E70EEEF171781DF74BE14E /* Pods-LinkUp.release.xcconfig */,
+				2F01E4ADE4DA08D1AC2166F6 /* Pods-LinkUpTests.debug.xcconfig */,
+				9308ECBA98D68C78D222E22F /* Pods-LinkUpTests.release.xcconfig */,
+				AD9C8775BD2053C935AE2E86 /* Pods-LinkUpUITests.debug.xcconfig */,
+				DCBB62A6AD988C3CC9CD565C /* Pods-LinkUpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EDBA29E1F4213720099607D /* Build configuration list for PBXNativeTarget "LinkUp" */;
 			buildPhases = (
+				7AFB8C0E4AEC292A5BE945FF /* [CP] Check Pods Manifest.lock */,
 				5EDBA2721F4213720099607D /* Sources */,
 				5EDBA2731F4213720099607D /* Frameworks */,
 				5EDBA2741F4213720099607D /* Resources */,
+				6FB6AAE558F58635D6D0148C /* [CP] Embed Pods Frameworks */,
+				87014C69917A83EA6FCA40CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EDBA2A11F4213720099607D /* Build configuration list for PBXNativeTarget "LinkUpTests" */;
 			buildPhases = (
+				2BA21E5B81E0A2CC2AF7C2F2 /* [CP] Check Pods Manifest.lock */,
 				5EDBA2861F4213720099607D /* Sources */,
 				5EDBA2871F4213720099607D /* Frameworks */,
 				5EDBA2881F4213720099607D /* Resources */,
+				4CE191F24650BE4A2AFBC80A /* [CP] Embed Pods Frameworks */,
+				C683978A628CFD88E6F69446 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EDBA2A41F4213720099607D /* Build configuration list for PBXNativeTarget "LinkUpUITests" */;
 			buildPhases = (
+				B27E45E78360664630A780A8 /* [CP] Check Pods Manifest.lock */,
 				5EDBA2911F4213720099607D /* Sources */,
 				5EDBA2921F4213720099607D /* Frameworks */,
 				5EDBA2931F4213720099607D /* Resources */,
+				6177A0BDE5247E529C9E79AB /* [CP] Embed Pods Frameworks */,
+				8F0890ECE3BC7A6F750A3279 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EDBA2841F4213720099607D /* LaunchScreen.storyboard in Resources */,
+				5EDBA2AB1F421AD10099607D /* GoogleService-Info.plist in Resources */,
 				5EDBA2811F4213720099607D /* Assets.xcassets in Resources */,
 				5EDBA27F1F4213720099607D /* Main.storyboard in Resources */,
 			);
@@ -257,13 +346,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BA21E5B81E0A2CC2AF7C2F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkUpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CE191F24650BE4A2AFBC80A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkUpTests/Pods-LinkUpTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6177A0BDE5247E529C9E79AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkUpUITests/Pods-LinkUpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FB6AAE558F58635D6D0148C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LinkUp/Pods-LinkUp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkUp/Pods-LinkUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AFB8C0E4AEC292A5BE945FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87014C69917A83EA6FCA40CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkUp/Pods-LinkUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0890ECE3BC7A6F750A3279 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkUpUITests/Pods-LinkUpUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B27E45E78360664630A780A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkUpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C683978A628CFD88E6F69446 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkUpTests/Pods-LinkUpTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EDBA2721F4213720099607D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDBA2AD1F42327C0099607D /* SignUpViewController.swift in Sources */,
 				5EDBA27C1F4213720099607D /* ViewController.swift in Sources */,
 				5EDBA27A1F4213720099607D /* AppDelegate.swift in Sources */,
+				5E640D451F433DBA00C37880 /* ResetPasswordViewController.swift in Sources */,
+				5E640D431F43321900C37880 /* LoginViewController.swift in Sources */,
+				5E640D411F43306F00C37880 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,9 +662,11 @@
 		};
 		5EDBA29F1F4213720099607D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44DC00DF493BA68DF5D87F0C /* Pods-LinkUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P8B368T7Z7;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = LinkUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = apps.ge.LinkUp;
@@ -428,9 +677,11 @@
 		};
 		5EDBA2A01F4213720099607D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E70EEEF171781DF74BE14E /* Pods-LinkUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P8B368T7Z7;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = LinkUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = apps.ge.LinkUp;
@@ -441,6 +692,7 @@
 		};
 		5EDBA2A21F4213720099607D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F01E4ADE4DA08D1AC2166F6 /* Pods-LinkUpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +708,7 @@
 		};
 		5EDBA2A31F4213720099607D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9308ECBA98D68C78D222E22F /* Pods-LinkUpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +724,7 @@
 		};
 		5EDBA2A51F4213720099607D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9C8775BD2053C935AE2E86 /* Pods-LinkUpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P8B368T7Z7;
@@ -485,6 +739,7 @@
 		};
 		5EDBA2A61F4213720099607D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCBB62A6AD988C3CC9CD565C /* Pods-LinkUpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P8B368T7Z7;
@@ -516,6 +771,7 @@
 				5EDBA2A01F4213720099607D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EDBA2A11F4213720099607D /* Build configuration list for PBXNativeTarget "LinkUpTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +780,7 @@
 				5EDBA2A31F4213720099607D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EDBA2A41F4213720099607D /* Build configuration list for PBXNativeTarget "LinkUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +789,7 @@
 				5EDBA2A61F4213720099607D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
