@@ -10,9 +10,17 @@
 		5E640D411F43306F00C37880 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E640D401F43306F00C37880 /* HomeViewController.swift */; };
 		5E640D431F43321900C37880 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E640D421F43321900C37880 /* LoginViewController.swift */; };
 		5E640D451F433DBA00C37880 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E640D441F433DBA00C37880 /* ResetPasswordViewController.swift */; };
+		5E640D471F4400FA00C37880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E640D461F4400FA00C37880 /* Main.storyboard */; };
+		5E640D491F44A8A200C37880 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E640D481F44A8A200C37880 /* Extension.swift */; };
+		5E640D4B1F44B09100C37880 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E640D4A1F44B09100C37880 /* Event.swift */; };
+		5E640D4D1F44D83400C37880 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E640D4C1F44D83400C37880 /* LaunchViewController.swift */; };
+		5E640D4F1F44DCFE00C37880 /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5E640D4E1F44DCFE00C37880 /* video.mov */; };
+		5E640D511F450DCF00C37880 /* cafe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E640D501F450DCF00C37880 /* cafe.mp4 */; };
+		5E640D541F450DD900C37880 /* rollercoaster.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E640D521F450DD900C37880 /* rollercoaster.mp4 */; };
+		5E640D551F450DD900C37880 /* water.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E640D531F450DD900C37880 /* water.mp4 */; };
+		5E640D571F4C6D5C00C37880 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E640D561F4C6D5C00C37880 /* AddEventViewController.swift */; };
 		5EDBA27A1F4213720099607D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDBA2791F4213720099607D /* AppDelegate.swift */; };
-		5EDBA27C1F4213720099607D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDBA27B1F4213720099607D /* ViewController.swift */; };
-		5EDBA27F1F4213720099607D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDBA27D1F4213720099607D /* Main.storyboard */; };
+		5EDBA27F1F4213720099607D /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDBA27D1F4213720099607D /* Auth.storyboard */; };
 		5EDBA2811F4213720099607D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDBA2801F4213720099607D /* Assets.xcassets */; };
 		5EDBA2841F4213720099607D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDBA2821F4213720099607D /* LaunchScreen.storyboard */; };
 		5EDBA28F1F4213720099607D /* LinkUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDBA28E1F4213720099607D /* LinkUpTests.swift */; };
@@ -48,10 +56,18 @@
 		5E640D401F43306F00C37880 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5E640D421F43321900C37880 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5E640D441F433DBA00C37880 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		5E640D461F4400FA00C37880 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5E640D481F44A8A200C37880 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5E640D4A1F44B09100C37880 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		5E640D4C1F44D83400C37880 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		5E640D4E1F44DCFE00C37880 /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.mov; sourceTree = "<group>"; };
+		5E640D501F450DCF00C37880 /* cafe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cafe.mp4; sourceTree = "<group>"; };
+		5E640D521F450DD900C37880 /* rollercoaster.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rollercoaster.mp4; sourceTree = "<group>"; };
+		5E640D531F450DD900C37880 /* water.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = water.mp4; sourceTree = "<group>"; };
+		5E640D561F4C6D5C00C37880 /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
 		5EDBA2761F4213720099607D /* LinkUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDBA2791F4213720099607D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EDBA27B1F4213720099607D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5EDBA27E1F4213720099607D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EDBA27E1F4213720099607D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Auth.storyboard; sourceTree = "<group>"; };
 		5EDBA2801F4213720099607D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EDBA2831F4213720099607D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EDBA2851F4213720099607D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,15 +140,18 @@
 		5EDBA2781F4213720099607D /* LinkUp */ = {
 			isa = PBXGroup;
 			children = (
+				5E640D521F450DD900C37880 /* rollercoaster.mp4 */,
+				5E640D531F450DD900C37880 /* water.mp4 */,
+				5E640D501F450DCF00C37880 /* cafe.mp4 */,
+				5E640D4E1F44DCFE00C37880 /* video.mov */,
 				5EDBA2AA1F421AD10099607D /* GoogleService-Info.plist */,
 				5EDBA2A91F4213950099607D /* Controller */,
 				5EDBA2A81F42138B0099607D /* View */,
 				5EDBA2A71F42137F0099607D /* Model */,
 				5EDBA2791F4213720099607D /* AppDelegate.swift */,
-				5EDBA27D1F4213720099607D /* Main.storyboard */,
 				5EDBA2801F4213720099607D /* Assets.xcassets */,
-				5EDBA2821F4213720099607D /* LaunchScreen.storyboard */,
 				5EDBA2851F4213720099607D /* Info.plist */,
+				5E640D481F44A8A200C37880 /* Extension.swift */,
 			);
 			path = LinkUp;
 			sourceTree = "<group>";
@@ -158,6 +177,7 @@
 		5EDBA2A71F42137F0099607D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5E640D4A1F44B09100C37880 /* Event.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -165,6 +185,9 @@
 		5EDBA2A81F42138B0099607D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5EDBA27D1F4213720099607D /* Auth.storyboard */,
+				5EDBA2821F4213720099607D /* LaunchScreen.storyboard */,
+				5E640D461F4400FA00C37880 /* Main.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -172,11 +195,12 @@
 		5EDBA2A91F4213950099607D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5EDBA27B1F4213720099607D /* ViewController.swift */,
 				5EDBA2AC1F42327C0099607D /* SignUpViewController.swift */,
 				5E640D401F43306F00C37880 /* HomeViewController.swift */,
 				5E640D421F43321900C37880 /* LoginViewController.swift */,
 				5E640D441F433DBA00C37880 /* ResetPasswordViewController.swift */,
+				5E640D4C1F44D83400C37880 /* LaunchViewController.swift */,
+				5E640D561F4C6D5C00C37880 /* AddEventViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -324,9 +348,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EDBA2841F4213720099607D /* LaunchScreen.storyboard in Resources */,
+				5E640D541F450DD900C37880 /* rollercoaster.mp4 in Resources */,
+				5E640D551F450DD900C37880 /* water.mp4 in Resources */,
+				5E640D471F4400FA00C37880 /* Main.storyboard in Resources */,
+				5E640D511F450DCF00C37880 /* cafe.mp4 in Resources */,
 				5EDBA2AB1F421AD10099607D /* GoogleService-Info.plist in Resources */,
 				5EDBA2811F4213720099607D /* Assets.xcassets in Resources */,
-				5EDBA27F1F4213720099607D /* Main.storyboard in Resources */,
+				5E640D4F1F44DCFE00C37880 /* video.mov in Resources */,
+				5EDBA27F1F4213720099607D /* Auth.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,11 +534,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E640D4B1F44B09100C37880 /* Event.swift in Sources */,
+				5E640D571F4C6D5C00C37880 /* AddEventViewController.swift in Sources */,
 				5EDBA2AD1F42327C0099607D /* SignUpViewController.swift in Sources */,
-				5EDBA27C1F4213720099607D /* ViewController.swift in Sources */,
+				5E640D491F44A8A200C37880 /* Extension.swift in Sources */,
 				5EDBA27A1F4213720099607D /* AppDelegate.swift in Sources */,
 				5E640D451F433DBA00C37880 /* ResetPasswordViewController.swift in Sources */,
 				5E640D431F43321900C37880 /* LoginViewController.swift in Sources */,
+				5E640D4D1F44D83400C37880 /* LaunchViewController.swift in Sources */,
 				5E640D411F43306F00C37880 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,12 +578,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5EDBA27D1F4213720099607D /* Main.storyboard */ = {
+		5EDBA27D1F4213720099607D /* Auth.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5EDBA27E1F4213720099607D /* Base */,
 			);
-			name = Main.storyboard;
+			name = Auth.storyboard;
 			sourceTree = "<group>";
 		};
 		5EDBA2821F4213720099607D /* LaunchScreen.storyboard */ = {

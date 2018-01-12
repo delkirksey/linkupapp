@@ -18,6 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        
+        //  configures the navigation bar color for all screens
+        var navigationBarAppearance = UINavigationBar.appearance()
+        navigationBarAppearance.tintColor = UIColor(hex: "55CDC3")
+        navigationBarAppearance.barTintColor = UIColor(hex: "55CDC3")
+        navigationBarAppearance.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
+        UIApplication.shared.statusBarStyle = .lightContent
+        
         return true
     }
 

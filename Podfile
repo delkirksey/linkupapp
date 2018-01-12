@@ -8,6 +8,8 @@ target 'LinkUp' do
   # Pods for LinkUp
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
 
   target 'LinkUpTests' do
     inherit! :search_paths

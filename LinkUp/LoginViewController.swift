@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 import FirebaseAuth
 
 class LoginViewController: UIViewController {
@@ -14,10 +16,14 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
+    var player: AVPlayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        //setUpVideoBackground()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,8 +50,11 @@ class LoginViewController: UIViewController {
                     print("You have successfully logged in.")
                     
                     //  Go to the HomeViewController
-                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
-                    self.present(vc!, animated: true, completion: nil)
+                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                    let vc = storyboard.instantiateViewController(withIdentifier: "UITabBarController")
+                    self.present(vc, animated: true, completion: nil)
+//                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
+//                    self.present(vc!, animated: true, completion: nil)
                 } else {
                     let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
                     
@@ -57,6 +66,32 @@ class LoginViewController: UIViewController {
             }
         }
         
+    }
+    
+    func setUpVideoBackground() {
+        let videoURL: NSURL = Bundle.main.url(forResource: "rollercoaster", withExtension: "mp4")! as NSURL
+        
+        player = AVPlayer(url: videoURL as URL)
+        player?.actionAtItemEnd = .none
+        player?.isMuted = true
+        
+        let playerLayer = AVPlayerLayer(player: player)
+        playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
+        playerLayer.zPosition = -1
+        
+        playerLayer.frame = view.frame
+        
+        view.layer.addSublayer(playerLayer)
+        
+        player?.play()
+        
+        //  loop video
+        NotificationCenter.default.addObserver(self, selector: #selector(LoginViewController.loopVideo), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil)
+    }
+    
+    func loopVideo() {
+        player?.seek(to: kCMTimeZero)
+        player?.play()
     }
 
     /*

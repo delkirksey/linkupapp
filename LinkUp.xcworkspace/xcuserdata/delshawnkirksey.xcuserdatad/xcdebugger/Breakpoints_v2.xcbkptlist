@@ -25,13 +25,93 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LinkUp/HomeViewController.swift"
-            timestampString = "524499289.806265"
+            filePath = "LinkUp/LoginViewController.swift"
+            timestampString = "525143892.602496"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "logOutAction(_:)"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "loginAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LinkUp.LoginViewController.(loginAction (Any) -&gt; ()).(closure #1)"
+                  moduleName = "LinkUp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/delshawnkirksey/Projects/Personal/LinkUp/LinkUp/LoginViewController.swift"
+                  timestampString = "524552687.571068"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "365">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LinkUp.LoginViewController.(loginAction (Any) -&gt; ()).(closure #1)"
+                  moduleName = "LinkUp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/delshawnkirksey/Projects/Personal/LinkUp/LinkUp/LoginViewController.swift"
+                  timestampString = "524552687.572928"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "407">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LinkUp/LoginViewController.swift"
+            timestampString = "525143892.603274"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "loginAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LinkUp/AddEventViewController.swift"
+            timestampString = "525303362.344037"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "AddEventViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LinkUp/LoginViewController.swift"
+            timestampString = "525143892.60355"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "loginAction(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
